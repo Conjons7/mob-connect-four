@@ -2,7 +2,7 @@ h1 {
   font-size: 24px;
 }
 
-.grid {
+.ourGrid {
     margin: 20px auto;
     display: table;
     width: 615px;
@@ -17,7 +17,7 @@ h1 {
      border-spacing: 5px 5px;
   }
 
-  .row {
+  .ourRow {
     display: table-row;
   }
   
@@ -30,4 +30,14 @@ h1 {
     -moz-border-radius: 50%;
     border-radius: 50%;
     margin: 2px;
+  }
+
+  .header {
+    margin: 0 0 15px;
+    padding: 15px;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 200;
+    text-align: center;
+    background-color: #1F90FF;
   }

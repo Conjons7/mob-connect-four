@@ -12,6 +12,7 @@ document.addEventListener('DOMContentLoaded', function () {
         if(player == 1) {
             grid[5][col] = 1;
             player = 2;
+            document.getElementById(colorTurn).innerHTML=""
         } else {
             grid[5][col] = 2;
             player = 1;
