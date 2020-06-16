@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <div className="Connect-four">
+        <div className="header text-center">
+            <h1>Connect Four</h1>
+            <p>To play CONNECT 4, try to get 4 of your color checkers in a row horizontally, vertically, or diagonally before your opponent.</p>
+        </div>
+        <!-- start of board -->
+        <div class="grid">
+            <div class="row">
+                <div class="cell" id="cell00"
+                    onclick="selectColumn(0)"></div>
+                <div class="cell" id="cell01"
+                    onclick="selectColumn(1)"></div>
+                <div class="cell" id="cell02"
+                    onclick="selectColumn(2)"></div>
+                <div class="cell" id="cell03"
+                    onclick="selectColumn(3)"></div>
+                <div class="cell" id="cell04"
+                    onclick="selectColumn(4)"></div>
+                <div class="cell" id="cell05"
+                    onclick="selectColumn(5)"></div>
+                <div class="cell" id="cell06s"
+                    onclick="selectColumn(6)"></div>
+            </div>
+            <div class="row">
+                <div class="cell" id="cell07"
+                    onclick="selectColumn(7)"></div>
+                <div class="cell" id="cell08"
+                    onclick="selectColumn(8)"></div>
+                <div class="cell" id="cell09"
+                    onclick="selectColumn(9)"></div>
+                <div class="cell" id="cell10"
+                    onclick="selectColumn(10)"></div>
+                <div class="cell" id="cell11"
+                    onclick="selectColumn(11)"></div>
+                <div class="cell" id="cell12"
+                    onclick="selectColumn(12)"></div>
+                <div class="cell" id="cell13"
+                    onclick="selectColumn(13)"></div>
+            </div>
+            <div class="row">
+                <div class="cell" id="cell14"
+                    onclick="selectColumn(14)"></div>
+                <div class="cell" id="cell15"
+                    onclick="selectColumn(15)"></div>
+                <div class="cell" id="cell16"
+                    onclick="selectColumn(16)"></div>
+                <div class="cell" id="cell17"
+                    onclick="selectColumn(17)"></div>
+                <div class="cell" id="cell18"
+                    onclick="selectColumn(18)"></div>
+                <div class="cell" id="cell19"
+                    onclick="selectColumn(19)"></div>
+                <div class="cell" id="cell20"
+                    onclick="selectColumn(20)"></div>
+            </div>
+            <div class="row">
+                <div class="cell" id="cell21"
+                    onclick="selectColumn(21)"></div>
+                <div class="cell" id="cell22"
+                    onclick="selectColumn(22)"></div>
+                <div class="cell" id="cell23"
+                    onclick="selectColumn(23)"></div>
+                <div class="cell" id="cell24"
+                    onclick="selectColumn(24)"></div>
+                <div class="cell" id="cell25"
+                    onclick="selectColumn(25)"></div>
+                <div class="cell" id="cell26"
+                    onclick="selectColumn(26)"></div>
+                <div class="cell" id="cell27"
+                    onclick="selectColumn(27)"></div>
+            </div>
+            <div class="row">
+                <div class="cell" id="cell28"
+                    onclick="selectColumn(28)"></div>
+                <div class="cell" id="cell29"
+                    onclick="selectColumn(29)"></div>
+                <div class="cell" id="cell30"
+                    onclick="selectColumn(30)"></div>
+                <div class="cell" id="cell31"
+                    onclick="selectColumn(31)"></div>
+                <div class="cell" id="cell32"
+                    onclick="selectColumn(32)"></div>
+                <div class="cell" id="cell33"
+                    onclick="selectColumn(33)"></div>
+                <div class="cell" id="cell34"
+                    onclick="selectColumn(34)"></div>
+            </div>
+            <div class="row">
+                <div class="cell" id="cell35"
+                    onclick="selectColumn(35)"></div>
+                <div class="cell" id="cell36"
+                    onclick="selectColumn(36)"></div>
+                <div class="cell" id="cell37"
+                    onclick="selectColumn(37)"></div>
+                <div class="cell" id="cell38"
+                    onclick="selectColumn(38)"></div>
+                <div class="cell" id="cell39"
+                    onclick="selectColumn(39)"></div>
+                <div class="cell" id="cell40"
+                    onclick="selectColumn(40)"></div>
+                <div class="cell" id="cell41"
+                    onclick="selectColumn(41)"></div>
+            </div>
+            
+        </div>
+        <!-- end of board -->
+    </div>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
+
+Wrap Up
+1. place checkers in board
+    a. differentiate red and yellow chips
+2. determine winning scenarios
+3. Tie scenarios
+4. Restart option
