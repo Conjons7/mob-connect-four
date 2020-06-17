@@ -1,16 +1,12 @@
 # mob-connect-four
 class mob project
-1. place chips in board
-2. players must click on select Column 
-    => chip will appear in bottom most slot
-    a. chip appears inplace w/out falling
-    
-3. establish 2 players
-    a. differentiate red and black chips
-    b. assign player1 = red
-    c. assign player2 = black
-4. determine winning scenarios
-5. Tie scenarios
-6. Restart option
 
-**start button
+1. players must click on select Column 
+    => chip will appear in bottom most slot
+        - Write for loop to compare col starting with row6, looping backwards until 0 is found in row.
+2. determine winning scenarios
+    - 4 of your color checkers in a row horizontally, vertically, or diagonally
+3. Tie scenarios
+4. Restart option/start button
+5. Scoring system
+    - keep track of wins
