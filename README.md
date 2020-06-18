@@ -10,3 +10,6 @@ class mob project
 4. Restart option/start button
 5. Scoring system
     - keep track of wins
+
+MVP
+1. get chips to appear in bottom of row

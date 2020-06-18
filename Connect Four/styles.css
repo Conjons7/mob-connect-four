@@ -41,3 +41,35 @@ h1 {
     text-align: center;
     background-color: #1F90FF;
   }
+
+  .playerRed {
+    color: red;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 50px;
+    -webkit-text-stroke: 3px #000000;
+    
+  }
+
+  .playerBlack {
+    color: black;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 50px;
+    -webkit-text-stroke: 2px red;
+  }
+
+  #colorTurn {
+    color: black;
+    font-family: "Arial Black", Gadget, sans-serif;
+    font-size: 50px;
+  }
+
+  #resetButton {
+    color: rgb(51, 255, 0);
+    text-align: center;
+    font-size: 30px;
+    border-radius: 5px;
+  }
+
+  #rButton {
+    text-align: center;
+  }
